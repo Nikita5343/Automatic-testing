@@ -11,5 +11,7 @@
             "email": "pochta5343@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "webmozart/assert": "^1.10"
+    }
 }
