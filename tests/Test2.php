@@ -1,6 +1,6 @@
 <?php
 
-/*$patch1 = __DIR__ . '/../vendor/autoload.php';
+$patch1 = __DIR__ . '/../vendor/autoload.php';
 $patch2 = __DIR__ . '/../../../autoload.php';
 if (file_exists($patch1)) {
     require_once $patch1;
@@ -21,4 +21,3 @@ use Webmozart\Assert\Assert;
 Assert::notEq(capitalize(''), 'f');
 Assert::notEq(capitalize('hello'), 'Hedllo');
 echo "Тесты прошли!";
-*/
