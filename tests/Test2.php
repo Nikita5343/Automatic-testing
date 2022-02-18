@@ -18,6 +18,6 @@ if (file_exists($src1)) {
 use function StringUtils\capitalize;
 use Webmozart\Assert\Assert;
 
-Assert::notEq(capitalize(''), 'f');
-Assert::notEq(capitalize('hello'), 'Hedllo');
+Assert::eq(capitalize(''), '');
+Assert::eq(capitalize('hello'), 'Hello');
 echo "Тесты прошли!";
